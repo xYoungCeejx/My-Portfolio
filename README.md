@@ -1,50 +1,64 @@
-# My-Portfolio
-#Just a website bio about me, trying to get better at coding!!!
-
 <!DOCTYPE html>
 <html>
    <head>
        <title>My portfolio</title>
    </head>
    <body>
-       
-
        <div>
            <img src="https://placehold.co/150" />
-           <h1>Cj Stineback</h1>
-           <h3>Web developer at CareerFoundry</h3>
-           <p>{{ A person who thinks all the time has nothing to think about except thoughts }}</p>
+           <h1>xYoungCeejx</h1>
+           <h2>Web developer at CareerFoundry</h2>
+           <p>A person who thinks all the time has nothing to think about except thoughts</p>
        </div>
-
-
-      <div>
          <div>
-            <h1>I am</h1>
+            <h3>I am</h3>
             <ul>
                 <li>An engineer</li>
                 <li>An reader</li>
-                <li>An writer</li>
                 <li>An rapper</li>
             </ul>
          </div>
          <div>
-             <h1>I like to</h1>
+             <h3>I like to</h3>
              <ul>
                  <li>Meet new people</li>
                  <li>Play guitar</li>
-                 <li>Eat Icecream</li>
+                 <li>           </li>
              </ul>
          </div>
-      </div>
-
       <div>
            <h3>My Projects</h3>
            <img src="https://placehold.co/300" />
            <img src="https://placehold.co/300" />
            <img src="https://placehold.co/300" />
-           <img src="https://placehold.co/300" alt="Abstract graphic with a gray background and centered text reading 300 x 300 in bold sans serif font, minimal design with no specific emotional tone, no other objects or scenery present" />
+           <img src="https://placehold.co/300" />
       </div>
-   
-      
-    </body>
+      <div>
+          <h3>Links</h3>
+          <ul>
+            <li>
+                <a href="https://github.com/xYoungCeejx">Github</a>
+            </li>
+            <li>
+                <a href="https://x.com/xYoungceejx">X/twitter</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/cj-stineback-b7b29b377/">Linkedin</a>
+            </li>
+        </ul>
+    </div>
+     
+    <div>
+        <form action="#">
+            <label for="email" id="email">
+                Email: <input id="email" placeholder="Enter your email" />
+            </label>
+            <label for="message">
+                Message: <textarea id="message">Your Message</textarea>
+            </label>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>     
+    
+  </body>
 </html>
