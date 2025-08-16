@@ -47,7 +47,6 @@
             </li>
         </ul>
     </div>
-     
     <div>
         <form action="#">
             <label for="email" id="email">
@@ -59,6 +58,5 @@
             <input type="submit" value="Send Message">
         </form>
     </div>     
-    
   </body>
 </html>
